@@ -6,7 +6,7 @@
     Connection con = null;
     try {
         Class.forName("com.mysql.cj.jdbc.Driver");
-        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/selfinfo", "root", "amiT@123");
+        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/selfinfo", "root", "DATABASEPassword");
 
         session.setAttribute("dbConnection", con);
     } catch (ClassNotFoundException | SQLException e) {
