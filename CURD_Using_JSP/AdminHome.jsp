@@ -25,12 +25,14 @@ AdminHome.jsp:-
                 justify-content: center;
                 align-items: center;
                 border:1px solid black;
-                background-color:whitesmoke;
+                background-color:#ffe6e6;
                 border-radius:0 20px;
             }
             input{
                 height:20px;
-                width:200px;    
+                width:200px;  
+                background-color:whiteSmoke;
+                
             }
             input[type=submit]{
                 height:28px;
