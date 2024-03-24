@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JDBC</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .inputForm{
+                height:250px;
+                width:200px;
+                padding:20px;
+                display:flex;
+                flex-direction:column;
+                justify-content: center;
+                align-items: center;
+                border:1px solid black;
+                background-color:whitesmoke;
+            }
+            input{
+                height:20px;
+                width:200px;    
+            }
+            input[type=submit]{
+                height:28px;
+                background-color:blue;
+                color:white;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="DataServlet1" class="inputForm">
+            Roll No. <input type="text" name="roll"><br>
+            Name: <input type="text" name="name"><br>
+            Course: <input type="text" name="course"><br>
+            <input type="submit" value="Submit to Database">
+        </form>
+    </body>
+</html>
